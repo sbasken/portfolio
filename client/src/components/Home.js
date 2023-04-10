@@ -8,7 +8,7 @@ const Home = () => {
 		<Container>
 			<Row>
 				<Col>
-					<h1 className='text-center mt-5'>Welcome to my Portfolio website!</h1>
+					<h1 className='text-center m-5 text-secondary'>Welcome to my Portfolio Website!</h1>
 				</Col>
 			</Row>
 		</Container>

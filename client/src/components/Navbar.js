@@ -5,15 +5,16 @@ import { Link } from 'react-router-dom';
 
 function NavMenu() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className='p-3' bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as={Link} to="/home">Saki's Portfolio</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/home">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+            <Nav.Link as={Link} to="/media">Media</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

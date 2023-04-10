@@ -6,38 +6,23 @@ function Slides() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://i.pinimg.com/originals/87/35/a8/8735a814056ef872d861f5fe2b0f1c7a.jpg"
+          src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80"
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption className="text-light bg-secondary opacity-75 rounded">
+          <h3>My First Portfolio Website</h3>
+          <p>I created this website to showcase what I have been working on.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://thehappypuppysite.com/wp-content/uploads/2017/12/pictures-of-huskies.jpg"
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
           alt="Second slide"
         />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://www.shutterstock.com/image-photo/cute-siberian-husky-puppies-sleeping-260nw-389503636.jpg"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <Carousel.Caption className="text-light bg-secondary opacity-75 rounded">
+          <h3>⬇️ Languages and Other Technical Skills Used ⬇️ </h3>
+          <p>JaveScript, React, Bootstrap, Python, and Flask.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

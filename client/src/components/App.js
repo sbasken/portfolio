@@ -5,6 +5,7 @@ import ProjectList from './ProjectList';
 import { Route, Routes } from "react-router-dom";
 import { Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Media from './Media';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<ProjectList />} />
+          <Route path="/media" element={<Media />} />
         </Routes>
       </Row>
     </Container>
