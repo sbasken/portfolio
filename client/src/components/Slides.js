@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Slides() {
   return (
-    <Carousel>
+    <Carousel className="w-75 mx-auto">
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -11,7 +11,7 @@ function Slides() {
         />
         <Carousel.Caption className="text-light bg-secondary opacity-75 rounded">
           <h3>My First Portfolio Website</h3>
-          <p>I created this website to showcase what I have been working on.</p>
+          <p >I created this website to showcase what I have been working on.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -21,7 +21,7 @@ function Slides() {
           alt="Second slide"
         />
         <Carousel.Caption className="text-light bg-secondary opacity-75 rounded">
-          <h3>⬇️ Languages and Other Technical Skills Used ⬇️ </h3>
+          <h3 className='w-75 mx-auto'>⬇️ Languages and Other Technical Skills Used ⬇️ </h3>
           <p>JaveScript, React, Bootstrap, Python, and Flask.</p>
         </Carousel.Caption>
       </Carousel.Item>

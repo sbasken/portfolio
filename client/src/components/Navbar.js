@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import '../Navbar.css'
 import { Link } from 'react-router-dom';
 
 function NavMenu() {
@@ -14,8 +15,22 @@ function NavMenu() {
             <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-            <Nav.Link as={Link} to="/media">Media</Nav.Link>
           </Nav>
+          <span>
+            <a href="https://www.linkedin.com/in/sakibasken/" target="blank">
+              <img className='media-icon mx-1' src="https://icons.veryicon.com/png/o/miscellaneous/very-thin-linear-icon/linkedin-103.png" />
+            </a>
+          </span>
+          <span>
+            <a href="https://github.com/sbasken" target="blank">
+              <img className='media-icon mx-1' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevjLMoY69RrmdOeKZONLsRySpvdkEwP-SaraZ3hc_8WFS0eR1ALIIL9xuP2_nWbRnawY&usqp=CAU" />
+            </a>
+          </span>
+          <span>
+            <a href="https://medium.com/@sbasken" target="blank">
+              <img className='media-icon mx-1' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-iJyCIHrOtdrcW_6Uoa_kdGbQSc9V9f9-OWB6Op-rFzVpbfCHP-QCUMw04HqcY0BbZE&usqp=CAU" />
+            </a>
+          </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
