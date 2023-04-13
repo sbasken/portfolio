@@ -1,0 +1,21 @@
+.img-card {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hover-shadow:hover {
+    opacity: 0.3;
+}
+
+.hover-shadow {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+img {
+    z-index: 1;
+}
