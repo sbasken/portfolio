@@ -15,7 +15,7 @@ const About = () => {
         <Row className="text-center my-5">
             <h1>{t("about1")} <br></br> {t("about2")}</h1>
         </Row>
-        <Row>
+        <Row className="m-5">
             <Col className='col-md-4 col-8 mx-auto mb-3'>
                 <Overlay className='bg-dark'/>
                 <div className='position-relative'>
@@ -38,7 +38,7 @@ const About = () => {
                         alt="" 
                     />
                     <div className='position-absolute z-0 top-50 start-50 translate-middle'>
-                        <h4 className='text-center'> Currently enrolled in an immersive software engineering program to master coding skills. </h4>
+                        <h4 className='text-center'> Currently working at a startup part-time </h4>
                     </div>
                 </div>
             </Col>
@@ -51,7 +51,7 @@ const About = () => {
                         alt="" 
                     />
                     <div className='position-absolute z-0 top-50 start-50 translate-middle'>
-                        <h4 className='text-center'> Programming and sustainability are her passion. </h4>
+                        <h4 className='text-center'> Graduated from an immersive software engineering program to master coding skills </h4>
                     </div>
                 </div>
             </Col>
@@ -64,7 +64,7 @@ const About = () => {
                         alt="" 
                     />
                     <div className='position-absolute z-0 top-50 start-50 translate-middle'>
-                        <h4 className='text-center'> Looking for opportunities to make the world a little better, using my technical skills and knowledge in sustainability. </h4>
+                        <h4 className='text-center'>  Programming and sustainability are her passion </h4>
                     </div>
                 </div>
             </Col>
@@ -77,7 +77,7 @@ const About = () => {
                         alt="" 
                     />
                     <div className='position-absolute z-0 top-50 start-50 translate-middle'>
-                        <h2 className='text-center'> Hello World! </h2>
+                        <h2 className='text-center'> Lived in 3 countries, 6 cities around the world </h2>
                     </div>
                 </div>
             </Col>
@@ -90,7 +90,7 @@ const About = () => {
                         alt="" 
                     />
                     <div className='position-absolute z-0 top-50 start-50 translate-middle'>
-                        <h2 className='text-center'> Hello World! </h2>
+                        <h2 className='text-center'> Looking for opportunities to make the world a little better </h2>
                     </div>
                 </div>
             </Col>
